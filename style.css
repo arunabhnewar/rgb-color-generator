@@ -29,12 +29,12 @@ h1 {
 }
 
 button {
-    padding: 16px 48px;
+    padding: 16px 68px;
     margin: 16px 0;
     cursor: pointer;
     background: #fff;
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
     border: 1px solid #000;
     border-radius: 4px;
 }
@@ -44,4 +44,14 @@ button:hover {
     color: #fff;
     border: 1px solid #000;
     transition: 0.5s ease-in-out;
+}
+
+input[type="text"]:disabled {
+    margin-top: 10px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
 }
